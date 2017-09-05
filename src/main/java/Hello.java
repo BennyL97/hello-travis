@@ -1,17 +1,17 @@
 
 /**
  * A class containing a main method which prints "Hello Travis!"
- * @author Johannes Drönner
+ * @author Benjamin Lutz
  *
  */
 public class Hello {
 	
 	/**
 	 * A static method returning "Hello Travis!".
-	 * @return "Hello Travis!"
+	 * @return "Hello Benny!"
 	 */
-	static public String sayHelloTravis() {
-		return "Hello Travis ";
+	static public String sayHelloBenny() {
+		return "Hello Benny ";
 	}; 
 
 	/**
@@ -19,7 +19,7 @@ public class Hello {
 	 * @param args not used
 	 */
 	public static void main(String[] args) {
-		System.out.println(sayHelloTravis()+"!");
+		System.out.println(sayHelloBenny()+"!");
 
 	}
 
